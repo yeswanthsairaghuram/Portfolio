@@ -607,6 +607,37 @@ h3.my-profession {
 .dark .project-image:hover{
     box-shadow: 0 0 20px white;
 }
+.project_name{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.project-main{
+    display: flex;
+    justify-content: space-between;
+}
+.project-image button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    gap: 50px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: var(--skin-color);
+    transition: all 0.3sease;
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.project-image button a{
+    text-decoration: none;
+    color: white;
+}
 /*contact*/
 .contact-tittle{
     color: var(--skin-color);
